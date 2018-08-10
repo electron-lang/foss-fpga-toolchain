@@ -76,7 +76,7 @@ gulp.task('build:iverilog', ['build:iverilog:make:install'], () => {
   console.log('build:iverilog');
 });
 
-gulp.task('build', ['build:iverilog'], () => {
+gulp.task('build', ['build:yosys'], () => {
   console.log('build');
 });
 
