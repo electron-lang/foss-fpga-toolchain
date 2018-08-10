@@ -76,7 +76,7 @@ gulp.task('build:iverilog', ['build:iverilog:make:install'], () => {
   console.log('build:iverilog');
 });
 
-gulp.task('build', ['build:yosys', 'build:nextpnr', 'build:iverilog'], () => {
+gulp.task('build', ['build:trellis'], () => {
   console.log('build');
 });
 
